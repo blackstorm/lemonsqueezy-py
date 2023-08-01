@@ -5,7 +5,9 @@ description = "lemonsqueezy python client"
 authors = [
     {name = "浩", email = "inf2inf2@outlook.com"},
 ]
-dependencies = []
+dependencies = [
+    "httpx>=0.24.1",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
